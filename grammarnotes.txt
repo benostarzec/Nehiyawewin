@@ -1,0 +1,47 @@
+Orders:
+    ind/Independent: Used for main clauses
+    con/Conjunct: Used for dependent clauses
+    imp/Imperative: Used for commands
+
+Tense:
+    prs/Present: Used for the present (can be Independent or Conjunct)
+    pst/Past: Used for the past (can be Independent or Conjunct)
+    fti/Future Intentional: Used for the future that's intended by someone or uncertain (can be Independent or Conjunct)
+    ftd/Future Definite: Used for the certain future
+    ftc/Future Conditional: Used for the Subjunctive or Iterative
+    kin/ka-infinitive: Used for infinitives (interchangeable with the ka-infinitive)
+    tin/ta-infinitive: Used for infinitives (interchangeable with the ta-infinitive)
+    imm/immediate: Immediately (used with the Imperative)
+    del/Delayed: At some point (used with the Imperative)
+
+Person:
+    0: Inanimate singular 3rd person proximate
+    0': Inanimate singular 3rd person obviate
+    0p: Inanimate plural 3rd person proximate
+    0p': Inanimate plural 3rd person obviate
+    1: 1st person singular
+    2: 2nd person singular
+    3: Animate 3rd person singular proximate
+    3': Animate 3rd person singular/plural proximate
+    1p: 1st person singular exclusive
+    21: 1st person singular inclusive
+    2p: 2nd person plural
+    3p: Animate 3rd person plural proximate
+    X: Unknown actor, used somewhat like a passive
+
+General:
+    Cree has 2 grammatical genders, Animate and Inanimate. Generally, things that are actually animate in real life are
+        animate, but things that aren't can be either.
+    Cree has a distinction between obviate and proximate in inflection. Only one noun at a time can be marked as
+        proximate at a time and all others are therefore obviate. The proximate argument is the topic, or is in some
+        other way more "close" to the speaker or discourse.
+    Cree has clusivity in the first person plural. Inclusive includes the 2nd person, Exclusive doesn't.
+    Cree morphophonology is pretty complicated, meaning surface forms of various conjugations often appear less
+        connected than they underlyingly are, due to the deletion/alteration of morphemes. For a look at how these
+        morphemes actually pattern in the underlying forms, check the conjugations dictionary in the file named after
+        the verb type you're interested in (VAI.py or VII.py). This might help you understand the conjugations better.
+        For example, the 0 singular suffix in the independent paradigm is underlyingly /-wi/, but it's often reduced to
+        /-Ø/ or /-w/ in various forms (e.g. /ispayin/-/wi/ > /ispayin/ in the independent singular proximate, but
+        /ispayin/-/eyi/-/wi/ > /ispayiniyiw/ in the independent singular obviate.
+    The standard roman orthography for Cree marks long vowels with the macron or circumflex diacritic, but due to
+        technical limitations, this program also accepts double vowels in the input.
