@@ -10,4 +10,4 @@ stems.tsv: A file filled with some example stems in the format (stem, meanings, 
 TSV.py: Methods for using the TSV file and its information
 formatting.py: Methods for formatting things as needed in practice.py
 practice.py: Methods used inside of practice_verb(), which is the method that you call to use the whole program, and that method itself.
-scriptswitch.py: A yet unused method that can change text from CAS (Canadian Aboriginal Syllabics) to latin script.
+scriptswitch.py: A yet unused method that can change text from CAS (Canadian Aboriginal Syllabics) to Latin script.
